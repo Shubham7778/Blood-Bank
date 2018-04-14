@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_search_blood"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:orientation="vertical"
+    android:gravity="top"
+    tools:context="nnk.com.bloodbank.SearchBlood">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@drawable/drop"/>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sp2"
+        android:layout_marginTop="100dp">
+    </Spinner>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/b7"
+        android:text="search"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="20sp"
+        android:onClick="searchBloodGroup"/>
+
+</LinearLayout>

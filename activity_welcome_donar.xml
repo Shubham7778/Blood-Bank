@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_welcome_donar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="top"
+    android:background="#ff8e6f"
+    tools:context="nnk.com.bloodbank.WelcomeDonar">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@drawable/bg"
+        android:id="@+id/img"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/b4"
+        android:text="search donar"
+        android:textSize="20sp"
+        android:layout_marginTop="50sp"
+        android:layout_marginLeft="95dp"
+        android:onClick="searchDonar"/>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/b5"
+        android:text="nearest Bloodbank"
+        android:textSize="20sp"
+        android:layout_marginTop="10sp"
+        android:layout_marginLeft="95dp"
+        android:onClick="bloodBank"/>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/b6"
+        android:text="stock availability"
+        android:textSize="20sp"
+        android:layout_marginTop="10sp"
+        android:layout_marginLeft="95dp"
+        android:onClick="myDetails"/>
+
+</LinearLayout>

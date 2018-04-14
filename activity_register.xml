@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_register"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/imbg"
+    tools:context="nnk.com.bloodbank.RegisterActivity">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="name"
+        android:id="@+id/name"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:inputType="textPersonName"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="password"
+        android:id="@+id/pass"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:inputType="textPersonName"/>
+
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg1"
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rb1"
+            android:text="male"
+            android:textSize="20sp" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rb2"
+            android:text="female"
+            android:textSize="20sp"
+            android:layout_marginLeft="60sp"/>
+    </RadioGroup>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="email"
+        android:id="@+id/email"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:ems="10"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="contact"
+        android:id="@+id/phn"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:inputType="number"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="addres"
+        android:id="@+id/addres"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:ems="10"/>
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="30sp"
+        android:id="@+id/sp1"
+        android:layout_margin="20sp">
+    </Spinner>
+
+    <Button
+        android:layout_width="115dp"
+        android:layout_height="wrap_content"
+        android:text="register"
+        android:textSize="20dp"
+        android:id="@+id/b3"
+        android:layout_marginTop="10dp"
+        android:background="#00ffd9"
+        android:onClick="register2"/>
+
+
+</LinearLayout>

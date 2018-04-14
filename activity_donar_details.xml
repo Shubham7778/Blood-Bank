@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_donar_details"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/imbg"
+    tools:context="nnk.com.bloodbank.DonarDetails">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="name"
+        android:id="@+id/nm"
+        android:textSize="20sp"
+        android:layout_margin="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="blood group"
+        android:id="@+id/bdg"
+        android:textSize="20sp"
+        android:layout_margin="10dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="city"
+        android:id="@+id/city"
+        android:textSize="20sp"
+        android:layout_margin="10dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="contact"
+        android:id="@+id/cno"
+        android:textSize="20sp"
+        android:layout_margin="10dp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/call"
+        android:onClick="call"
+        android:text="call"
+        android:layout_marginTop="30sp"
+        android:textSize="20sp"/>
+
+
+</LinearLayout>
